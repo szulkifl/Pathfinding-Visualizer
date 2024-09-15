@@ -1,0 +1,60 @@
+.grid {
+  display: grid; /* Use CSS Grid */
+  grid-template-columns: repeat(50, 32px); /* Responsive columns */
+  gap: 2px; /* Space between grid cells */
+  width: auto; /* Make the grid container responsive */
+  margin: 30px auto; /* Center the grid */
+  max-width: 90vw; /* Prevent overflow on large screens */
+  box-sizing: border-box; /* Include padding/border in element's total width/height */
+  color: whitesmoke;
+  min-height: 100vh;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 10px;
+}
+
+ @media (max-width: 1920px) { .grid { grid-template-columns: repeat(50, 32px);}}
+ @media (max-width: 1891.5px) { .grid { grid-template-columns: repeat(50, 31.5px);}}
+ @media (max-width: 1863px) { .grid { grid-template-columns: repeat(50, 31px);}}
+ @media (max-width: 1834.5px) { .grid { grid-template-columns: repeat(50, 30.5px);}}
+ @media (max-width: 1806px) { .grid { grid-template-columns: repeat(50, 30px);}}
+ @media (max-width: 1777.5px) { .grid { grid-template-columns: repeat(50, 29.5px);}}
+ @media (max-width: 1749px) { .grid { grid-template-columns: repeat(50, 29px);}}
+ @media (max-width: 1720.5px) { .grid { grid-template-columns: repeat(50, 28.5px);}}
+ @media (max-width: 1692px) { .grid { grid-template-columns: repeat(50, 28px);}}
+ @media (max-width: 1663.5px) { .grid { grid-template-columns: repeat(50, 27.5px);}}
+ @media (max-width: 1635px) { .grid { grid-template-columns: repeat(50, 27px);}}
+ @media (max-width: 1606.5px) { .grid { grid-template-columns: repeat(50, 26.5px);}}
+ @media (max-width: 1578px) { .grid { grid-template-columns: repeat(50, 26px);}}
+ @media (max-width: 1549.5px) { .grid { grid-template-columns: repeat(50, 25.5px);}}
+ @media (max-width: 1521px) { .grid { grid-template-columns: repeat(50, 25px);}}
+ @media (max-width: 1492.5px) { .grid { grid-template-columns: repeat(50, 24.5px);}}
+ @media (max-width: 1464px) { .grid { grid-template-columns: repeat(50, 24px);}}
+ @media (max-width: 1435.5px) { .grid { grid-template-columns: repeat(50, 23.5px);}}
+ @media (max-width: 1407px) { .grid { grid-template-columns: repeat(50, 23px);}}
+ @media (max-width: 1378.5px) { .grid { grid-template-columns: repeat(50, 22.5px);}}
+ @media (max-width: 1350px) { .grid { grid-template-columns: repeat(50, 22px);}}
+ @media (max-width: 1321.5px) { .grid { grid-template-columns: repeat(50, 21.5px);}}
+ @media (max-width: 1293px) { .grid { grid-template-columns: repeat(50, 21px);}}
+ @media (max-width: 1264.5px) { .grid { grid-template-columns: repeat(50, 20.5px);}}
+ @media (max-width: 1236px) { .grid { grid-template-columns: repeat(50, 20px);}}
+ @media (max-width: 1207.5px) { .grid { grid-template-columns: repeat(50, 19.5px);}}
+ @media (max-width: 1179px) { .grid { grid-template-columns: repeat(50, 19px);}}
+ @media (max-width: 1150.5px) { .grid { grid-template-columns: repeat(50, 18.5px);}}
+ @media (max-width: 1122px) { .grid { grid-template-columns: repeat(50, 18px);}}
+ @media (max-width: 1093.5px) { .grid { grid-template-columns: repeat(50, 17.5px);}}
+ @media (max-width: 1065px) { .grid { grid-template-columns: repeat(50, 17px);}}
+ @media (max-width: 1036.5) { .grid { grid-template-columns: repeat(50, 16.5px);}}
+ @media (max-width: 1008px) { .grid { grid-template-columns: repeat(50, 16px);}}
+ @media (max-width: 979.5px) { .grid { grid-template-columns: repeat(50, 15.5px);}}
+ @media (max-width:  951px) { .grid { grid-template-columns: repeat(50, 15px);}}
+ @media (max-width: 922.5px) { .grid { grid-template-columns: repeat(50, 14.5px);}}
+ @media (max-width:  894px) { .grid { grid-template-columns: repeat(50, 14px);}}
+ @media (max-width: 865.5px) { .grid { grid-template-columns: repeat(50, 13.5px);}}
+ @media (max-width:  837px) { .grid { grid-template-columns: repeat(50, 13px);}}
+ @media (max-width: 808.5px) { .grid { grid-template-columns: repeat(50, 12.5px);}}
+ @media (max-width:  780px) { .grid { grid-template-columns: repeat(50, 12px);}}
+ @media (max-width: 751.5px) { .grid { grid-template-columns: repeat(50, 11.5px);}}
+ @media (max-width:  723px) { .grid { grid-template-columns: repeat(50, 11px);}}
+ @media (max-width: 694.5) { .grid { grid-template-columns: repeat(50, 10.5px);}}
+ @media (max-width:  667px) { .grid { grid-template-columns: repeat(50, 10px);}}
